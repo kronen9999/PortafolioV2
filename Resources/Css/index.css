@@ -222,6 +222,53 @@ color: #000000;
 -webkit-text-stroke: 1px #B9B23D;
 }
 
+.divElementoVariado .AcHistorial_Div
+{
+    width: 90%;
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.divElementoVariado .AcHistorial_Div::-webkit-scrollbar{
+    width: 10px;
+    background-color: #B9B23D;
+}
+
+.divElementoVariado .AcHistorial_Div p{
+    padding: 8vh;
+    width: fit-content;
+    height: fit-content;
+    font-size: 5vh;
+    color: #000000;
+    -webkit-text-stroke: .3px #B9B23D;
+    margin-bottom: 5vh;
+}
+
+.divElementoVariado .AcHistorial_Div img{
+   background-color: rebeccapurple;
+    width:10vh;    height: 50%;
+    margin-bottom: 10vh;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #11111100; /* Negro o un tono oscuro */
+    border-left: 2px solid #B9B23D; /* Línea café */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000; /* Café */
+    border-radius: 0px; /* Rectangular */
+    border: 1px solid #000000; /* Para más definición */
+}
+
+
 @keyframes animationWelcome{
     0%{
         opacity:0;

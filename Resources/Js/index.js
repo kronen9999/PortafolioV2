@@ -72,7 +72,7 @@ function SeleccionMenu(apartadoMenu)
             divInfo.appendChild(elements.ELementoAbout());
             break;
         case "AcHistorial":
-            alert("AcHistorial");
+            divInfo.appendChild(elements.ElementoAcHistorial());
             break;
         case "Projects":
             alert("Projects");

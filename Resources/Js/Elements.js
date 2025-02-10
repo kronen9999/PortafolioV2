@@ -71,4 +71,26 @@
     return divElementoVariado;
     }
 
+    static ElementoAcHistorial()
+    {
+      let divElementoVariado=document.createElement("div");
+      divElementoVariado.classList.add("divElementoVariado");
+      divElementoVariado.innerHTML=`<h2 class='InfoApartado'>
+      Academic Historial
+      </h2>
+      <div class='AcHistorial_Div'>
+      <p>Preschool:Bertha von GLumer</p>
+      <p>↓</p>
+      <p>Primary: Carlos A Carrillo</p>
+      <p>↓</p>
+      <p>Secondary: Escuela Secundaria Técnica No27</p>
+      <p>↓</p>
+      <p>Preparatory: Emsad 38 Tezoatlan</p>
+      <p>↓</p>
+      <p>University: Instituto Tecnologico Superior de Acatlan de Osorio</p>
+      </div>
+    `;
+    return divElementoVariado;
+    }
+
  }
