@@ -93,4 +93,99 @@
     return divElementoVariado;
     }
 
+    static ElementoSkills ()
+    {
+      let divElementoVariado=document.createElement("div");
+      divElementoVariado.classList.add("divElementoVariado");
+      divElementoVariado.innerHTML=`<h2 class='InfoApartado'>
+      Skills
+      </h2>
+      <div class='Skills_Div'>
+      <div class='Skills_Div_1'>
+
+      <div class='Skills_Div_1_Skill'>
+      <img src='Assets/Images/Android.png'>
+      <p>ANDROID</p>
+      </div>
+
+      <div class='Skills_Div_1_Skill'>
+      <img src='Assets/Images/CS.png'>
+      <p>C#</p>
+      </div>
+
+      <div class='Skills_Div_1_Skill'>
+      <img src='Assets/Images/Git.png'>
+      <p>GIT</p>
+      </div>
+     
+      <div class='Skills_Div_1_Skill'>
+      <img src='Assets/Images/Java.png'>
+      <p>JAVA</p>
+      </div>
+
+       <div class='Skills_Div_1_Skill'>
+      <img src='Assets/Images/Kotlin.png'>
+      <p>KOTLIN</p>
+      </div>
+
+
+<div class='Skills_Div_1_Skill'>
+      <img src='Assets/Images/php.png'>
+      <p>PHP</p>
+      </div>
+
+      <div class='Skills_Div_1_Skill'>
+      <img src='Assets/Images/React.png'>
+      <p>REACT</p>
+      </div>
+
+      </div>
+      <div class='Skills_Div_2'>
+
+       <div class='Skills_Div_2_Skill'>
+      <img src='Assets/Images/Arduino.png'>
+      <p>ARDUINO</p>
+      </div>
+
+      <div class='Skills_Div_2_Skill'>
+      <img src='Assets/Images/Css.png'>
+      <p>CSS</p>
+      </div>
+
+      <div class='Skills_Div_2_Skill'>
+      <img src='Assets/Images/Html.png'>
+      <p>HTML</p>
+      </div>
+
+      <div class='Skills_Div_2_Skill'>
+      <img src='Assets/Images/Javascript.png'>
+      <p>JAVASCRIPT</p>
+      </div>
+
+      <div class='Skills_Div_2_Skill'>
+      <img src='Assets/Images/Laravel.png'>
+      <p>LARAVEL</p>
+      </div>
+
+      <div class='Skills_Div_2_Skill'>
+      <img src='Assets/Images/Mysql.png'>
+      <p>Mysql</p>
+      </div>
+
+      <div class='Skills_Div_2_Skill'>
+      <img src='Assets/Images/Python.png'>
+      <p>Python</p>
+      </div>
+
+      <div class='Skills_Div_2_Skill'>
+      <img src='Assets/Images/Sql.png'>
+      <p>SQL</p>
+      </div>
+
+      </div>
+      </div>
+    `;
+    return divElementoVariado;
+    }
+
  }

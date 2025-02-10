@@ -78,7 +78,8 @@ function SeleccionMenu(apartadoMenu)
             alert("Projects");
             break;
         case "Skills":
-            alert("Skills");
+            divInfo.appendChild(elements.ElementoSkills());
+            dinamismoSkills();
             break;
         case "Contact":
             alert("Contact");
@@ -87,6 +88,12 @@ function SeleccionMenu(apartadoMenu)
 
 }
 
+function dinamismoSkills() {
+    let imagenesSkills = document.querySelectorAll(".Skills_Div_1_Skill img,.Skills_Div_2 img");
+    imagenesSkills.forEach(imagen => {
+        let tiempoRandom = Math.floor(Math.random()*(1-4)+1);
 
-
-
+        imagen.style.animationDelay = `${tiempoRandom}s`;
+       
+    });
+}
