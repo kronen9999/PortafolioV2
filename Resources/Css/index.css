@@ -334,6 +334,67 @@ color: #000000;
     height: fit-content;
 }
 
+.Contacto_Div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: none;
+}
+.Contacto_Div form h2{
+    width: fit-content;
+    font-size: 8vh;
+    color: #000000;
+    -webkit-text-stroke: .001px #B9B23D;
+    padding-bottom: 2%;
+    height: 8vh;
+    z-index: 10;
+}
+
+.Contacto_Div form{
+    width:100%;
+   min-height:100%;
+   max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.Contacto_Div form input{
+    color: #B9B23D;
+    width: 90%;
+    height:fit-content;
+    border: none;
+    border-bottom: 1px solid #B9B23D;
+    background-color: transparent;
+    font-size: 5vh;
+    margin-bottom: 2vh;
+}
+
+.Contacto_Div form textarea{
+    width: 90%;
+    height: 30vh;
+    color: #B9B23D;
+    border: 1px solid #B9B23D;
+    background-color: transparent;
+    font-size: 5vh;
+}
+
+.Contacto_Div form button{
+    width:fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 8vh;
+    background-color: #B9B23D;
+    color: #000000;
+    font-size: 5vh;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2vh;
+}
 
 
 @keyframes animationWelcome{

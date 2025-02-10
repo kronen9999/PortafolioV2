@@ -82,7 +82,8 @@ function SeleccionMenu(apartadoMenu)
             dinamismoSkills();
             break;
         case "Contact":
-            alert("Contact");
+            divInfo.appendChild(elements.ElementoContact());
+            setupContactForm();
             break;
     }
 
@@ -95,5 +96,23 @@ function dinamismoSkills() {
 
         imagen.style.animationDelay = `${tiempoRandom}s`;
        
+    });
+}
+
+function setupContactForm() {
+    const form = document.getElementById("contactForm");
+    const formMessage = document.getElementById("formMessage");
+
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        const name = formData.get("name");
+        const email = formData.get("email");
+        const message = formData.get("message");
+        setTimeout(() => {
+            alert(`Hola ${name}, tu mensaje ha sido enviado`);
+        },0);
+        form.reset();
     });
 }
