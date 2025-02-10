@@ -100,19 +100,24 @@ function dinamismoSkills() {
 }
 
 function setupContactForm() {
-    const form = document.getElementById("contactForm");
-    const formMessage = document.getElementById("formMessage");
+    const btn = document.getElementById('button');
 
-    form.addEventListener("submit", function(event) {
-        event.preventDefault();
-
-        const formData = new FormData(form);
-        const name = formData.get("name");
-        const email = formData.get("email");
-        const message = formData.get("message");
-        setTimeout(() => {
-            alert(`Hola ${name}, tu mensaje ha sido enviado`);
-        },0);
-        form.reset();
+    document.getElementById('form')
+     .addEventListener('submit', function(event) {
+       event.preventDefault();
+    
+       btn.value = 'Sending...';
+    
+       const serviceID = 'default_service';
+       const templateID = 'template_cpqagp7';
+    
+       emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+          btn.value = 'Send Email';
+          alert('Correo enviado correctamente gracias por contactarme');
+        }, (err) => {
+          btn.value = 'Send Email';
+          alert(JSON.stringify(err));
+        });
     });
 }

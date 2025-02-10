@@ -195,18 +195,16 @@
       divElementoVariado.innerHTML=`<h2 class='InfoApartado'>Contacto</h2>
             <div class='Contacto_Div'>
                 <h2>Envíame un mensaje</h2>
-                <form id="contactForm" action="https://formsubmit.co/stacica22eneronkio@gmail.com" method="POST">
+                <form id="form">
                 <h2>Envíame un mensaje</h2>
-                    <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+                    <input type="text" name="from_name" id="from_name" placeholder="Ingrese su nombre" required>>
                     
+                    <input type="email" name="email_id" id="email_id" placeholder="Ingrese su correo electrónico" required>
                     
-                    <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+                    <textarea type="text" name="message" id="message" placeholder="Ingrese su mensaje a enviar" required></textarea>
                     
-                    <textarea id="message" name="message" placeholder="Ingrese su mensaje a enviar" required></textarea>
-                    
-                    <button type="submit">Enviar Correo</button>
+                    <button type="submit" id="button">Enviar Correo</button>
                 </form>
-                <div id="formMessage"></div>
             </div>`;
       return divElementoVariado;
       
