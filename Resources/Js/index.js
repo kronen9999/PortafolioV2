@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     divPrincipal.removeChild(divPrincipal.querySelector(".WelcomeMessage"));
     divPrincipal.appendChild(elements.divContenedor());
     document.querySelector(".divContenedor").innerHTML=`<div class='divContenedor_P1'>
-    <h2>You can found me on</h2>
+    <h2>Mis redes sociales</h2>
     </div>
     <div class='divContenedor_P2'>
     <div class='divInfo'>

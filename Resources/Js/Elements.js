@@ -35,11 +35,11 @@
       ulMenu.classList.add("ulMenu");
       ulMenu.innerHTML=`
       <li seleccion='true' btnMenu='Home'>Home</li>
-      <li seleccion='false' btnMenu='About'>About</li>
-      <li seleccion='false' btnMenu='AcHistorial'>Academic Historial</li>
-      <li seleccion='false' btnMenu='Projects'>Projects</li>
-      <li seleccion='false' btnMenu='Skills'>Skills</li>
-      <li seleccion='false' btnMenu='Contact'>Contact</li>
+      <li seleccion='false' btnMenu='About'>Sobre mi</li>
+      <li seleccion='false' btnMenu='AcHistorial'>Historial Academico</li>
+      <li seleccion='false' btnMenu='Projects'>Proyectos</li>
+      <li seleccion='false' btnMenu='Skills'>Habilidades</li>
+      <li seleccion='false' btnMenu='Contact'>Contacto</li>
     `;
     return ulMenu;
     }
@@ -49,8 +49,8 @@
       let divElementoHome=document.createElement("div");
       divElementoHome.classList.add("ElementoHome");
       divElementoHome.innerHTML=`
-      <h1 class='Home_Title'>Hi i am steven </h1>
-      <h2 class='Home_Description'>Welcome to my portfolio</h2>
+      <h1 class='Home_Title'>Hola soy Steven</h1>
+      <h2 class='Home_Description'>Bienvenido(a) a mi portafolio</h2>
     `;
     return divElementoHome;
     }
@@ -60,12 +60,12 @@
       let divElementoVariado=document.createElement("div");
       divElementoVariado.classList.add("divElementoVariado");
       divElementoVariado.innerHTML=`<h2 class='InfoApartado'>
-      About me
+      Sobre mi
       </h2>
       <div class='AboutMe_Div'>
-      <p>Hi,My name is Steven Camacho Cisneros.Just now i am a
-       student of the informatics Engineering career in the Instituto
-       Tecnologico Superior of Acatlan de Osorio </p>
+      <p>Hola me llamo Steven Camacho Cisneros,Soy un estudiante de el 
+      Instituto Superior de Acatlan de Osorio,soy una persona apasionada por el 
+      desarrollo de software y la programacion.</p>
       </div>
     `;
     return divElementoVariado;
@@ -76,18 +76,18 @@
       let divElementoVariado=document.createElement("div");
       divElementoVariado.classList.add("divElementoVariado");
       divElementoVariado.innerHTML=`<h2 class='InfoApartado'>
-      Academic Historial
+      Historial Academico
       </h2>
       <div class='AcHistorial_Div'>
-      <p>Preschool:Bertha von GLumer</p>
+      <p>Preescolar:Bertha von GLumer</p>
       <p>↓</p>
-      <p>Primary: Carlos A Carrillo</p>
+      <p>Primaria: Carlos A Carrillo</p>
       <p>↓</p>
-      <p>Secondary: Escuela Secundaria Técnica No27</p>
+      <p>Secondaria: Escuela Secundaria Técnica No27</p>
       <p>↓</p>
-      <p>Preparatory: Emsad 38 Tezoatlan</p>
+      <p>Bachillerato: Emsad 38 Tezoatlan</p>
       <p>↓</p>
-      <p>University: Instituto Tecnologico Superior de Acatlan de Osorio</p>
+      <p>Universidad: Instituto Tecnologico Superior de Acatlan de Osorio</p>
       </div>
     `;
     return divElementoVariado;
@@ -98,7 +98,7 @@
       let divElementoVariado=document.createElement("div");
       divElementoVariado.classList.add("divElementoVariado");
       divElementoVariado.innerHTML=`<h2 class='InfoApartado'>
-      Skills
+      Habilidades
       </h2>
       <div class='Skills_Div'>
       <div class='Skills_Div_1'>
@@ -188,4 +188,16 @@
     return divElementoVariado;
     }
 
- }
+    static ElementoContact()
+    {
+      let divElementoVariado=document.createElement("div");
+      divElementoVariado.classList.add("divElementoVariado");
+      divElementoVariado.innerHTML=`<h2 class='InfoApartado'>
+      Contact
+      </h2>`;
+      return divElementoVariado;
+      
+
+    }
+
+  }
