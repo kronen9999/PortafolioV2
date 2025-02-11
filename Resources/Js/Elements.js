@@ -21,10 +21,10 @@
       let ulRedes= document.createElement("ul");
       ulRedes.classList.add("ulRedes");
       ulRedes.innerHTML=`
-      <li><a href=''><img src='Assets/Images/GitHub.png'></href></li>
-      <li><a href=''><img src='Assets/Images/StackOverflow.png'></href></li>
-      <li><a href=''><img src='Assets/Images/WhatsApp.png'></href></li>
-      <li><a href=''><img src='Assets/Images/Linkedin.png'></href></li>
+      <li><a href='https://github.com/kronen9999' target='_blank'><img src='Assets/Images/GitHub.png'></href></li>
+      <li><a href='https://stackoverflow.com/users/25022090/steven-camacho-cisneros' target='_blank'><img src='Assets/Images/StackOverflow.png'></href></li>
+      <li><a href='https://wa.me/9532407559' target='_blank'><img src='Assets/Images/WhatsApp.png'></href></li>
+      <li><a href='https://mx.linkedin.com' target='_blank'><img src='Assets/Images/Linkedin.png'></href></li>
     `;
       return ulRedes;
     }
@@ -209,6 +209,115 @@
       return divElementoVariado;
       
 
+    }
+
+    static ElementoProyects()
+    {
+  let divElementoVariado=document.createElement("div");
+  divElementoVariado.classList.add("divElementoVariado");
+  divElementoVariado.innerHTML=`<h2 class='InfoApartado'>
+  Proyectos
+  </h2>
+  <div class='Projects_Div'>
+
+  <div class='Projects_Div_Proyecto'>
+  <h3>Sistema de culturas mesoamricanas (Evaluacion y aplicacion)</h3>
+  <div class='Projects_Div_Proyecto_Div'>
+  <img src='Assets/Images/Proyecto_Culturas.png'>
+  <div class='Projects_Div_Proyecto_Div_Info'>
+  <p>Sistema de ayuda en  en el estudio de el tema de las culturas mesoamericanas enfocado a niños de primaria y con la capacidad de evaluar a los alumnos generar un examen y un informe .
+  Este  proyecto fue colaborativo</p>
+  <div class='Projects_Div_Proyecto_Div_Info_Tecnologias'>
+  <img src='Assets/Images/Java.png'>
+  </div>
+  </div>
+  </div> 
+  </div>
+
+  <div class='Projects_Div_Proyecto'>
+  <h3>Sistema dispensador de productos para la mujer V1</h3>
+  <div class='Projects_Div_Proyecto_Div'>
+  <img src='Assets/Images/Proyecto_DispensadorV1.png'>
+  <div class='Projects_Div_Proyecto_Div_Info'>
+  <p>Sistema dispensador de productos para la mujer(software y Hardware)que consistia en un dispensador de productos para la arte fisica 
+  y para el sistema el aplicativo de esccritorio.Este proyecto fue colaborativo</p>
+  <div class='Projects_Div_Proyecto_Div_Info_Tecnologias'>
+  <img src='Assets/Images/Java.png'>
+  <img src='Assets/Images/Arduino.png'>
+  <img src='Assets/Images/MySQL.png'>
+  </div>
+  </div>
+  </div> 
+  </div>
+
+<div class='Projects_Div_Proyecto'>
+  <h3>Sistema dispensador de productos para la mujer v2</h3>
+  <div class='Projects_Div_Proyecto_Div'>
+  <img src='Assets/Images/Proyecto_DispensadorV2.png'>
+  <div class='Projects_Div_Proyecto_Div_Info'>
+  <p>Proyecto de el sistema dispensador cuyo hardware se modifico por un prototipo mas sofisticado y se migraron tecnologias Java-C# y MySql-SQL.Este proyecto fue colaborativo</p>
+  <div class='Projects_Div_Proyecto_Div_Info_Tecnologias'>
+  <img src='Assets/Images/CS.png'>
+  <img src='Assets/Images/Arduino.png'>
+  <img src='Assets/Images/Sql.png'>
+  </div>
+  </div>
+  </div> 
+  </div>
+
+  <div class='Projects_Div_Proyecto'>
+  <h3>Mochila gps para niños de preescolar</h3>
+  <div class='Projects_Div_Proyecto_Div'>
+  <img src='Assets/Images/MochilaGPS.jpg'>
+  <div class='Projects_Div_Proyecto_Div_Info'>
+  <p>Proyecto colaborativo que consiste en integrar en una mochila para niños un sensor gps para su monitoreo y rastreo,se utilizo una placa esp8266,conexiones a base de datos y aplicacion en Kodular</p>
+  <div class='Projects_Div_Proyecto_Div_Info_Tecnologias'>
+  <img src='Assets/Images/Php.png'>
+  <img src='Assets/Images/Arduino.png'>
+  <img src='Assets/Images/MySql.png'>
+  </div>
+  </div>
+  </div> 
+  </div>
+
+    <div class='Projects_Div_Proyecto'>
+  <h3>Bolsa de trabajo para el Itsao</h3>
+  <div class='Projects_Div_Proyecto_Div'>
+  <img src='Assets/Images/BolsaTrabajo.png'>
+  <div class='Projects_Div_Proyecto_Div_Info'>
+  <p>Sistema web para el Itsao con la finalidad de ofrecer una plataforma de trabajo,vacantes y postulacion para los estudiantes del Itsao
+  .Proyecto Colaborativo</p>
+  <div class='Projects_Div_Proyecto_Div_Info_Tecnologias'>
+  <img src='Assets/Images/Php.png'>
+  <img src='Assets/Images/Html.png'>
+  <img src='Assets/Images/Css.png'>
+  <img src='Assets/Images/Javascript.png'>
+  <img src='Assets/Images/MySql.png'>
+  </div>
+  </div>
+  </div> 
+  </div>
+
+  <div class='Projects_Div_Proyecto'>
+  <h3>Sistema gestor de mujeres embarazadas (Enfocado a clinica)</h3>
+  <div class='Projects_Div_Proyecto_Div'>
+  <img src='Assets/Images/SistemaME.png'>
+  <div class='Projects_Div_Proyecto_Div_Info'>
+  <p>Sistema web para gestionar clinicas,doctores,y muejeres embarazadas,para analizar brindar consultas y obtener informacion respecto al embarazo.Proyecto colaborativo</p>
+  <div class='Projects_Div_Proyecto_Div_Info_Tecnologias'>
+  <img src='Assets/Images/Php.png'>
+  <img src='Assets/Images/Html.png'>
+  <img src='Assets/Images/Css.png'>
+  <img src='Assets/Images/Javascript.png'>
+  <img src='Assets/Images/MySql.png'>
+  </div>
+  </div>
+  </div> 
+  </div>
+
+  </div>`;
+
+  return divElementoVariado;
     }
 
   }

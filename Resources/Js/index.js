@@ -75,7 +75,7 @@ function SeleccionMenu(apartadoMenu)
             divInfo.appendChild(elements.ElementoAcHistorial());
             break;
         case "Projects":
-            alert("Projects");
+           divInfo.appendChild(elements.ElementoProyects());
             break;
         case "Skills":
             divInfo.appendChild(elements.ElementoSkills());
@@ -115,6 +115,7 @@ function setupContactForm() {
         .then(() => {
           btn.value = 'Send Email';
           alert('Correo enviado correctamente gracias por contactarme');
+          this.reset(); 
         }, (err) => {
           btn.value = 'Send Email';
           alert(JSON.stringify(err));
