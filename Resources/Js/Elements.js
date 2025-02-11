@@ -244,7 +244,7 @@
   <div class='Projects_Div_Proyecto_Div_Info_Tecnologias'>
   <img src='Assets/Images/Java.png'>
   <img src='Assets/Images/Arduino.png'>
-  <img src='Assets/Images/MySQL.png'>
+  <img src='Assets/Images/Mysql.png'>
   </div>
   </div>
   </div> 
@@ -272,9 +272,9 @@
   <div class='Projects_Div_Proyecto_Div_Info'>
   <p>Proyecto colaborativo que consiste en integrar en una mochila para niños un sensor gps para su monitoreo y rastreo,se utilizo una placa esp8266,conexiones a base de datos y aplicacion en Kodular</p>
   <div class='Projects_Div_Proyecto_Div_Info_Tecnologias'>
-  <img src='Assets/Images/Php.png'>
+  <img src='Assets/Images/php.png'>
   <img src='Assets/Images/Arduino.png'>
-  <img src='Assets/Images/MySql.png'>
+  <img src='Assets/Images/Mysql.png'>
   </div>
   </div>
   </div> 
@@ -288,11 +288,11 @@
   <p>Sistema web para el Itsao con la finalidad de ofrecer una plataforma de trabajo,vacantes y postulacion para los estudiantes del Itsao
   .Proyecto Colaborativo</p>
   <div class='Projects_Div_Proyecto_Div_Info_Tecnologias'>
-  <img src='Assets/Images/Php.png'>
+  <img src='Assets/Images/php.png'>
   <img src='Assets/Images/Html.png'>
   <img src='Assets/Images/Css.png'>
   <img src='Assets/Images/Javascript.png'>
-  <img src='Assets/Images/MySql.png'>
+  <img src='Assets/Images/Mysql.png'>
   </div>
   </div>
   </div> 
@@ -305,11 +305,11 @@
   <div class='Projects_Div_Proyecto_Div_Info'>
   <p>Sistema web para gestionar clinicas,doctores,y muejeres embarazadas,para analizar brindar consultas y obtener informacion respecto al embarazo.Proyecto colaborativo</p>
   <div class='Projects_Div_Proyecto_Div_Info_Tecnologias'>
-  <img src='Assets/Images/Php.png'>
+  <img src='Assets/Images/php.png'>
   <img src='Assets/Images/Html.png'>
   <img src='Assets/Images/Css.png'>
   <img src='Assets/Images/Javascript.png'>
-  <img src='Assets/Images/MySql.png'>
+  <img src='Assets/Images/Mysql.png'>
   </div>
   </div>
   </div> 
